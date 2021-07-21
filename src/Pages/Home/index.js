@@ -1,12 +1,13 @@
 import React from 'react';
+import Home from '../../Components/Home';
 // import { Link } from 'react-router-dom';
 
-function Home() {
+function HomePage() {
     return (
         <div>
-            <h1>HomePage</h1>
+            <Home/>
         </div>
     )
 }
 
-export default Home;
+export default HomePage;
