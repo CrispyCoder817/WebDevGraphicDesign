@@ -5,6 +5,7 @@ import About from './Pages/About';
 import GraphicDesign from './Pages/Graphics';
 import WebDev from './Pages/WebDev';
 import NotFound from './Pages/NotFound';
+// import Header from './Components/Header';
 
 
 function App() {
