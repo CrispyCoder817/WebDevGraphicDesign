@@ -1,0 +1,14 @@
+.margins {
+    margin: 2vh 2vh;
+}
+
+.highlighted {
+    background-color: firebrick;
+    border-radius: 1vh;
+    padding: .5vh;
+    color:honeydew;
+}
+
+li {
+    list-style-type:'#';
+}
