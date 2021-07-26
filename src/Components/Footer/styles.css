@@ -1,4 +1,5 @@
 .Wrapper {
+    margin: 3vh 0vh 0vh 0vh;
     background-color: rgb(120, 0, 0);
     display: flex;
     height: 10vh;

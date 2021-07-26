@@ -10,6 +10,7 @@ function About() {
       {/* <Header /> */}
       
         <h1 className="margins highlighted">About</h1>
+        <hr className="skillLine"></hr>
         <p className="margins">
           Hometown: Alma, Michigan.<br></br>
           Full Stack Web Dev (JavaScript) Certificate - 2021. <br></br>
@@ -21,6 +22,7 @@ function About() {
           {/* Photography - hobby.<br></br>             */}
         </p>
         <h2 className="margins highlighted">Skills</h2>
+        <hr className="skillLine"></hr>
         <h3 className="listHead">Graphic Design</h3>
         <ul className="listItem">
           <li>Indesign</li>

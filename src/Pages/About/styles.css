@@ -7,7 +7,7 @@ li {
 }
 
 .margins {
-    margin: 2vh 2vh;
+    margin: 2vh 3vh;
     align-items: center;
     justify-content: center;
 }
@@ -15,7 +15,9 @@ li {
 .highlighted {
     background-color: firebrick;
     border-radius: 1vh;
+    margin: 1vh 3vh;
     padding: .5vh;
+    width: 50vw;
     color:honeydew;
     align-items: center;
     justify-content: center;
@@ -28,17 +30,25 @@ li {
 }
 
 .listHead {
+    color: honeydew;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1vh;
     border-radius: 1vh;
-    background-color: rgba(255, 0, 0, 0.8);
+    background-color: rgb(69, 0, 0);
     margin: 3vh 20vh 0vh 3vh;
+    width: 50vw;
 }
 
 .listItem {
-    margin: .5vh 0 0 0;
+    margin: 1vh 0vh 0vh 0vh;
     align-items: center;
     justify-content: center;
+}
+
+.skillLine {
+    width: 50vw;
+    position: relative;
+    margin: 0vh 0vh 0vh 3vh;
 }
