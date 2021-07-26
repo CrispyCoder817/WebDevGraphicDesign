@@ -5,12 +5,11 @@ import "./styles.css";
 function About() {
   return (
   <div>
-  <body className="aboutpage">
+  <main className="aboutpage">
     <div>
       {/* <Header /> */}
       
-        <h1 className="margins highlighted">About</h1>
-        <hr className="skillLine"></hr>
+        <h2 className="margins highlighted">BackLog</h2>
         <p className="margins">
           Hometown: Alma, Michigan.<br></br>
           Full Stack Web Dev (JavaScript) Certificate - 2021. <br></br>
@@ -21,8 +20,8 @@ function About() {
           Freelance Graphic Designer - 2016.<br></br>
           {/* Photography - hobby.<br></br>             */}
         </p>
-        <h2 className="margins highlighted">Skills</h2>
         <hr className="skillLine"></hr>
+        <h2 className="margins highlighted">Skills</h2>
         <h3 className="listHead">Graphic Design</h3>
         <ul className="listItem">
           <li>Indesign</li>
@@ -37,7 +36,7 @@ function About() {
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
-          <li>React</li>
+          <li>ReactJS</li>
           <li>Git/GitHub</li>
           {/* <li>Trello</li> */}
           <li>Figma</li>
@@ -51,9 +50,8 @@ function About() {
           <li>Attention to Detail</li>
           <li>Organized</li>
         </ul>
-      {/* <Footer/> */}
       </div>
-      </body>
+      </main>
   </div>
   );
 }

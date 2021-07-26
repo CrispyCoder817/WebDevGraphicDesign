@@ -6,7 +6,7 @@ import GraphicDesign from './Pages/Graphics';
 import WebDev from './Pages/WebDev';
 import NotFound from './Pages/NotFound';
 import Header from './Components/Header';
-import Footer from './Components/Footer';
+// import Footer from './Components/Footer';
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         <Route exact path='' component={NotFound}/>
       </Switch>
     </Router>
-    <Footer/>
+    {/* <Footer/> */}
     </div>
   );
 }

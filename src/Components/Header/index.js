@@ -6,7 +6,7 @@ class Header extends Component {
         return (
             <div className="Wrapper">
             <div className="Container01">
-            <h1 className="Title">Brandon G. Merritt</h1>
+            <h2 className="Title">Brandon G. Merritt</h2>
             </div>
             </div>
         )

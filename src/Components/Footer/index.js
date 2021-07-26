@@ -4,8 +4,8 @@ import "./styles.css";
 class Footer extends Component {
     render() {
         return (
-            <div className="Wrapper">
-                <footer className="Container01">
+            <div className="footWrap">
+                <footer>
                     HelloWorld
                 </footer>
             </div>
