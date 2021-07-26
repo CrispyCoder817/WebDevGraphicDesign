@@ -1,5 +1,15 @@
+h3 {
+    color:black;
+}
+
+li {
+    list-style-type:'#';
+}
+
 .margins {
     margin: 2vh 2vh;
+    align-items: center;
+    justify-content: center;
 }
 
 .highlighted {
@@ -7,8 +17,28 @@
     border-radius: 1vh;
     padding: .5vh;
     color:honeydew;
+    align-items: center;
+    justify-content: center;
 }
 
-li {
-    list-style-type:'#';
+.aboutpage {
+    /* background-color: dimgray; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.listHead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh;
+    border-radius: 1vh;
+    background-color: rgba(255, 0, 0, 0.8);
+    margin: 3vh 20vh 0vh 3vh;
+}
+
+.listItem {
+    margin: .5vh 0 0 0;
+    align-items: center;
+    justify-content: center;
 }

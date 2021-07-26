@@ -16,6 +16,10 @@
     justify-content: center;
 }
 
+.Title {
+    color:gainsboro
+}
+
 /* .listContainer01 {
     display: inline-flex;
     align-items: flex-start;

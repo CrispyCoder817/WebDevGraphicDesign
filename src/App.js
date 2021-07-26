@@ -5,11 +5,15 @@ import About from './Pages/About';
 import GraphicDesign from './Pages/Graphics';
 import WebDev from './Pages/WebDev';
 import NotFound from './Pages/NotFound';
-// import Header from './Components/Header';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 
 function App() {
+  
   return (
+    <div>
+    <Header/>
     <Router>
       <Switch>
         <Route exact path='/' component={Home}/>
@@ -19,6 +23,8 @@ function App() {
         <Route exact path='' component={NotFound}/>
       </Switch>
     </Router>
+    <Footer/>
+    </div>
   );
 }
 

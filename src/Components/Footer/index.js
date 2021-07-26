@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import "./styles.css";
 
-class Header extends Component {
+class Footer extends Component {
     render() {
         return (
             <div className="Wrapper">
-            <div className="Container01">
-            <h1 className="Title">Brandon G. Merritt</h1>
-            </div>
+                <footer className="Container01">
+                    HelloWorld
+                </footer>
             </div>
         )
     }
 }
 
-export default Header;
+export default Footer;
