@@ -1,0 +1,23 @@
+/* nav {
+} */
+
+a {
+    text-decoration: none;
+    color: firebrick;
+    display: inline;
+}
+
+a:hover {
+    color: black;
+}
+
+.navLink {
+    list-style-type: none;
+    display: flex;
+    direction: initial;
+    margin: 2.5vh 0vh 2.5vh -1.5vh;
+}
+
+.linkItems {
+    margin: 0vh 1vh 0vh 1vh;
+}
