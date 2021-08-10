@@ -9,7 +9,7 @@ function About() {
 <div>
   <main className="aboutpage">
     <div>
-          <Navigation />
+          <Navigation/>
           <h2 className="highlighted">About</h2>
           <p className="pstyle">
             Full Stack Web Dev (JavaScript) Certificate - 2021. <br></br>
