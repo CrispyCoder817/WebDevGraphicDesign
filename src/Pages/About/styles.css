@@ -20,12 +20,11 @@
     font-size: 4vh;
 }
 
-.SkillWrapper {
+/* .SkillWrapper {
     display: block;
-}
+} */
 
 .SkillContainer {
-    display:block;
     background-color: #b22222;
     height: 30vh;
     width: 56vw;

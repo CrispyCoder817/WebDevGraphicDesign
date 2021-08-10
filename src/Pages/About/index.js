@@ -1,14 +1,14 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.css';
+import { Container, Row, Col } from 'react-bootstrap';
 import "./styles.css";
 import Navigation from "../../Components/Navigation";
 // import { Link } from 'react-router-dom';
 
 function About() {
   return (
+<div>
+  <main className="aboutpage">
     <div>
-      <main className="aboutpage">
-        <div>
           <Navigation />
           <h2 className="highlighted">About</h2>
           <p className="pstyle">
@@ -22,9 +22,9 @@ function About() {
 
           <h2 className="highlighted">Skills</h2>
 
-          <div className="SkillWrapper">
-            
-            <div className="SkillContainer">
+          <Container>
+            <Row className="rows SkillContainer">
+              <Col className="columns">
               <h3 className="listHead">Graphic Design</h3>
               <ul className="listItems">
                 <li className="slitems">Indesign</li>
@@ -34,8 +34,13 @@ function About() {
                 <li className="slitems">Social Media</li>
                 <li className="slitems">Typography</li>
               </ul>
-            </div>
-            <div className="SkillContainer">
+              </Col>
+            </Row>
+          </Container>
+
+        <Container>
+          <Row className="SkillContainer rows">
+            <Col className="columns">
             <h3 className="listHead">WebDev</h3>
             <ul className="listItem">
               <li className="slitems">HTML</li>
@@ -45,8 +50,13 @@ function About() {
               <li className="slitems">Git/GitHub</li>
               <li className="slitems">Figma</li>
             </ul>
-            </div>
-            <div className="SkillContainer">
+            </Col>
+          </Row>
+        </Container>
+            
+        <Container>
+          <Row className="SkillContainer rows">
+            <Col className="columns">
             <h3 className="listHead">General</h3>
             <ul className="listItem">
               <li className="slitems">Project Management</li>
@@ -56,11 +66,12 @@ function About() {
               <li className="slitems">Attention to Detail</li>
               <li className="slitems">Organized</li>
             </ul>
-            </div>
-          </div>
-        </div>
-      </main>
+            </Col>
+          </Row>
+        </Container>
     </div>
+  </main>
+</div>
   );
 }
 export default About;
